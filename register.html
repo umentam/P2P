@@ -1,44 +1,45 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    
+    <link href="bootstrap-3.3.4-dist/css/bootstrap.min.css" rel="stylesheet">
+    
 <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-<style type="text/css">
-    #login {
-  width: 250px;     /* specify a width! */
-  margin: 0 auto; /* center */
-  font-weight:bold;
-  font-family: 'Roboto', sans-serif;
-  font-size:18px;
-}
-body { 
-text-align:center;
-width: 100%;
-height: 100%;
-background-color:#0E968A;
-font-family: 'Roboto', sans-serif;
-} 
-</style>
+<link rel="stylesheet" href="custom.css"/>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <title>Login</title>
 </head>
 
 <body>
-<div class="login" id="login">
-	<img src="/squarewhite.png" alt="placeholder" width="225" height="225"/>
+<div class="container-fluid">
+	<img src="https://dl-web.dropbox.com/get/queuelogo.png?_subject_uid=17737552&amp;w=AADH1I26s8WnAn_WXrezBzIjRTmO-yKwcMiXmwM4jSCPJQ" alt="placeholder" height="150" width="150"/>
 	<br/>
     
-      <h2 style="color:white;">Sign Up</h2>
-      <form method="post" action="index.html">
-        <p><input type="text" id="login" value="" placeholder="Email" style="width: 225px;height:30px;border-radius: 5px;text-align:center;background-color:#BEDEF5";" ></p>
-        <p><input  id="login" type="password" name="password" value="" placeholder="Password" style="width: 225px;height:30px;border-radius: 5px;text-align:center;background-color:#BEDEF5;"></p>
-      	<p><input  id="login" type="password" name="checkpassword" value="" placeholder="Enter Password Again" style="width: 225px;height:30px;border-radius: 5px;text-align:center;background-color:#BEDEF5;"></p>
-		<p><input type="text" id="login" value="" placeholder="Location, i.e., Long Island, New York" style="font-size:16px;width: 225px;height:30px;border-radius: 5px;text-align:center;background-color:#BEDEF5;" ></p>
+      <h1 class="white-color">Sign Up</h1>
+      <form method="post" action="signup.php">
+        <p><input type="text" class="form-control" name="email" placeholder="Email" ></p>
+        <p><input type="password" class="form-control" name="password" placeholder="Password"></p>
+      	<p><input type="password" class="form-control" name="checkpassword" placeholder="Enter Password Again"></p>
+		<p><input type="text" class="form-control" name="address" placeholder="City and State, i.e., Long Island, New York"></p>
+
+    <button type="submit" class="btn btn-default">Done</button>
       </form>
-      <form>
-    <button id="login" style="background-color:transparent;height :30px; border: none;border-radius: 30px;color:white;">Done</button>
-    </form>
 </div>
+    
+    
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+    
 </body>
 
 </html>
