@@ -10,38 +10,36 @@
    /* center */
   font-weight:bold;
   font-family: 'Roboto', sans-serif;
-  font-size:30px;
-  vertical-align:middle
+  font-size: 40px;
+  vertical-align:middle;
+  border:
 }
     #give {
-  width: 150px;
-  height: 150px;     /* specify a width! */
+  width: 300px;
+  height: 75px;     /* specify a width! */
   margin: 0 auto; /* center */
   font-weight:bold;
   font-family: 'Roboto', sans-serif;
-  border-radius: 100%;
+  border-radius: 20px;
   background-color: white;  
   margin-top:40px;
-  vertical-align:middle
+        padding-top: 25px;
+  
 }
     #recieve {
-  width: 150px;     /* specify a width! */
-  height: 150px;
+  width: 300px;     /* specify a width! */
+  height: 75px;
   margin: 0 auto; /* center */
   font-weight:bold;
   font-family: 'Roboto', sans-serif;
-  border-radius: 100%;
+  border-radius: 20px;
   background-color: white;
-  vertical-align: middle;
-  margin-top:40px;      
+  margin-top:40px;   
+  padding-top: 25px;
    
 }
     
-     #align {
- 
-  vertical-align: middle;
-   
-}
+
 body { 
 text-align:center;
 width: 100%;
@@ -55,17 +53,21 @@ font-family: 'Roboto', sans-serif;
 </head>
 
 <body>
-
-	          
+    <div>
+    
+        <img src="whitelogo.png">
+    </div>
+    <div style="margin-top: 250px;">
     <div id = "give">
-    <form id = "align" >
-    <button id="login" style="background-color:transparent;"  >Give</button>
+    <form>
+        <button id="login" style="background-color:white; border-style:none;" ><span style="color:#F06291">Give</span></button>
     </form>
     </div>
     <div id = "recieve">
     <form>
-    <button id="login"style="background-color:transparent;">Recieve</button>
+        <button id="login"style="background-color:transparent; border-style:none;"><span style="color:#F06291">Recieve</span></button>
     </form>
+    </div>
     </div>
 
 </body>
