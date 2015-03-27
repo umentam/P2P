@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<link rel="stylesheet" type="text/css" href="custom.css"></link>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Untitled 1</title></head>
+
+<body>
+	<select name="category_picker" id="soflow">
+	  	<option value="Strollers">Strollers</option>
+	  	<option value="Clothes">Clothes</option>
+	  	<option value="Nursery Furniture">Nursery Furniture</option>
+	  	<option value="Toys">Toys</option>
+	  	<option value="Car Seats">Car Seats</option>
+	</select>
+	<form action="upload.php" method="post" enctype="multipart/form-data" id="login" class="login"><br/>
+		<input placeholder="Title Your Post" type="text" name="Title" style="padding-top:10px;"<br/>
+		<input placeholder="What is the model of your item" type="text" name="Model"style="padding-top:10px;"><br/><br/>
+		<a style="padding-top:10px;">Please Upload an image of your item.</a><br/><br/>
+		<input type="file" name="fileToUpload" id="fileToUpload" style="padding-top:10px;"><br/><br/>
+		<a>Description</a><br/><br/>
+		<textarea style="padding-top:10px;" rows="6" form="itemform" cols="50" name="Desciption"></textarea><br/><br/>
+    	<input type="submit" value="Finished" name="submit">
+	</form>
+	
+</body>
+
+</html>
