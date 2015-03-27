@@ -1,4 +1,4 @@
-﻿/*#title{
+/*#title{
     float:right;
 }*/
 
@@ -6,6 +6,9 @@
     padding: 0;
     margin: 0;
 }*/
+
+input:hover{ background-color: #ccc; }
+button:hover{ background-color: #ccc; }
 .form-control{
     height: 40px;
     font-family: sans-serif;
