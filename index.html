@@ -3,37 +3,19 @@
 
 <head>
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="less/main.css"></link>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
     <script src="js/app.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-    <style type="text/css">
-        #login {
-            width: 250px;
-            /* specify a width! */
-            
-            margin: 0 auto;
-            /* center */
-            
-            font-weight: bold;
-            font-family: 'Roboto', sans-serif;
-            font-size: 18px;
-        }
-        
-        body {
-            text-align: center;
-            width: 100%;
-            height: 100%;
-            background-color: #09BCD3;
-            font-family: 'Roboto', sans-serif;
-        }
-    </style>
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
     <title>Parent 2 Parent</title>
 </head>
 
+
+
 <body ng-app="P2pApp">
     <div ng-controller="IndexController">
-        <a><img src="images/whitesquare.png" alt="placeholder" ng-click="changeUrl('/')"width="225" height="225"/></a>
+        <a><img src="images/whitesquare.png" alt="placeholder" ng-click="changeUrl('/')" width="225" height="225" />
+        </a>
         <div ng-view></div>
     </div>
 

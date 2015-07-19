@@ -1,0 +1,80 @@
+/*********************
+COLORS
+**********************/
+@lavender: #a6b8e6 ;
+@white: #ffffff;
+@orchid: #d171dd;
+@grey: #dfdfdf ;
+@defaultBackgroundColor: @lavender;
+@defaultButtonColor: @white;
+@defaultButtonBorderColor: @orchid;
+@ButtonHoverColor: @grey;
+/*********************
+FONTS
+**********************/
+
+.Font {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+/*********************
+SIZES
+**********************/
+@buttonHeight: 40px;
+@buttonWidth: 225px;
+@buttonBorderWidth: @buttonHeight * 0.1;
+
+/*********************
+STYLES
+**********************/
+
+.ButtonAndTextInput{
+    height: @buttonHeight;
+    width: @buttonWidth;
+    border: solid @defaultButtonBorderColor @buttonBorderWidth;
+    border-redius: 5px;
+    background-color: @defaultButtonColor;
+    text-align: center;
+    margin: 10px;
+    .Font;
+}
+body{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: @defaultBackgroundColor;
+    .Font;
+    
+}
+
+button{
+    .ButtonAndTextInput;
+    color: @lavender;
+    &:hover{
+        background-color: @grey;
+    }
+}
+
+.text{
+    .ButtonAndTextInput;
+    padding: 5px;
+    
+}
+
+h1{
+    color: @white;
+    text-align: center;
+}
+#login {
+            width: 250px;
+            /* specify a width! */
+            
+            margin: 0 auto;
+            /* center */
+            
+            font-weight: bold;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+        }
+

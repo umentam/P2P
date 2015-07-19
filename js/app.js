@@ -10,7 +10,7 @@ var app = angular.module("P2pApp", [])
             {
                 name: 'email',
                 properName: 'Email',
-                isUnique: false, 
+                isUnique: false,
                 input: ''
             },
             {
@@ -22,7 +22,7 @@ var app = angular.module("P2pApp", [])
             {
                 name: 'location',
                 properName: 'Location',
-                isConfirmed: false, 
+                isConfirmed: false,
                 input: ''
             }];
 

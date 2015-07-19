@@ -1,0 +1,80 @@
+/*********************
+COLORS
+**********************/
+/*********************
+FONTS
+**********************/
+.Font {
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+/*********************
+SIZES
+**********************/
+/*********************
+STYLES
+**********************/
+.ButtonAndTextInput {
+  height: 40px;
+  width: 225px;
+  border: solid #d171dd 4px;
+  border-redius: 5px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+body {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: #a6b8e6;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+button {
+  height: 40px;
+  width: 225px;
+  border: solid #d171dd 4px;
+  border-redius: 5px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  color: #a6b8e6;
+}
+button:hover {
+  background-color: #dfdfdf;
+}
+.text {
+  height: 40px;
+  width: 225px;
+  border: solid #d171dd 4px;
+  border-redius: 5px;
+  background-color: #ffffff;
+  text-align: center;
+  margin: 10px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 5px;
+}
+h1 {
+  color: #ffffff;
+  text-align: center;
+}
+#login {
+  width: 250px;
+  /* specify a width! */
+  margin: 0 auto;
+  /* center */
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
