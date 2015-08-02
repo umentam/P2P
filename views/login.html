@@ -1,34 +1,6 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<title>Login</title>
-</head>
-
-<body>
-<div class="login" id="login">
-	<br/>
-    
-      <h2 style="color:white;">Login</h2>
-      <form method="post" action="index.html">
-        <p><input type="text" id="login" value="" placeholder="Username or Email" style="width: 225px;height:30px;border-radius: 5px;text-align:center;background-color:#BEDEF5";" ></p>
-        <p><input  id="login" type="password" name="password" value="" placeholder="Password" style="width: 225px;height:30px;border-radius: 5px;text-align:center;background-color:#BEDEF5;"></p>
-        <p id="login" style="width: 225px">
-          <label style="color:white;">
-            <input type="checkbox" name="remember_me" >Remember me on this computer
-          </label>
-        </p>
-        <p id="login" class="submit"><input id="login" type="submit" name="commit" value="Go" style="color:white;background-color:transparent;width: 220px;height:30px;border: none;padding=5px;border-radius: 30px;padding-top: 5px;"></p>
-      </form>
-      <form>
-    <button id="login" style="background-color:transparent; 220px; height:30px; border: none;border-radius: 30px;color:white;">Sign Up!</button>
-    </form>
-    <form>
-    <button style="background-color:transparent;width: 220px;height:30px;font-weight:bold; border: none;border-radius: 30px;color:white;">Forgotten Password</button>
-    </form>
+<header><h1>User Login</h1></header>
+<div ng-repeat="info in loginInfo">
+    <p>{{info.properName}}</p>
+    <input class="text" type="text" placeholder="{{info.properName}}" ng-model="info.input"/>
+    {{info.input}}
 </div>
-</body>
-
-</html>

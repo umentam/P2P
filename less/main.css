@@ -16,7 +16,6 @@ SIZES
 STYLES
 **********************/
 .ButtonAndTextInput {
-  height: 40px;
   width: 225px;
   border: solid #d171dd 4px;
   border-redius: 5px;
@@ -37,7 +36,6 @@ body {
   font-size: 18px;
 }
 button {
-  height: 40px;
   width: 225px;
   border: solid #d171dd 4px;
   border-redius: 5px;
@@ -47,13 +45,13 @@ button {
   font-weight: bold;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  height: 40px;
   color: #a6b8e6;
 }
 button:hover {
   background-color: #dfdfdf;
 }
 .text {
-  height: 40px;
   width: 225px;
   border: solid #d171dd 4px;
   border-redius: 5px;
@@ -64,6 +62,7 @@ button:hover {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   padding: 5px;
+  height: 25px;
 }
 h1 {
   color: #ffffff;

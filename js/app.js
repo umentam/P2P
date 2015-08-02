@@ -25,6 +25,18 @@ var app = angular.module("P2pApp", [])
                 isConfirmed: false,
                 input: ''
             }];
+        
+        $scope.loginInfo = [
+            {
+                name: 'userName',
+                properName: 'User Name',
+                input: ''
+            },
+            {
+                name: 'password',
+                properName: 'Password',
+                input: ''
+            }];
 
         $scope.homeButtons = {
             login: "Login",
